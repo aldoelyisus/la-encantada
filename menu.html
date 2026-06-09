@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- ── SEO ─────────────────────────────────────── -->
+  <title>Menú — Cafetería La Encantada</title>
+  <meta name="description" content="Menú completo de Cafetería La Encantada: cafés cappuccino, tés, raspados, galletas, postres, waffles y más. Precios actualizados. Horario 6pm–10pm." />
+  <meta name="keywords" content="menú cafetería, café cappuccino, raspados, galletas, waffles, tés, precios, la encantada menú" />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://la-encantada.com/menu.html" />
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://la-encantada.com/menu.html" />
+  <meta property="og:title" content="Menú — Cafetería La Encantada" />
+  <meta property="og:description" content="Explora nuestro menú completo con cafés artesanales, raspados, snacks y más. Horario 6pm–10pm." />
+  <meta property="og:image" content="assets/images/drinks.png" />
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="assets/images/logo.png" />
+  <link rel="apple-touch-icon" href="assets/images/logo.png" />
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600&family=Lato:wght@300;400;700&display=swap" rel="stylesheet" />
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/menu.css" />
+
+  <!-- Schema.org Menu -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Menu",
+    "name": "Menú Cafetería La Encantada",
+    "url": "https://la-encantada.com/menu.html",
+    "hasMenuSection": [
+      { "@type": "MenuSection", "name": "Café tipo Cappuccino" },
+      { "@type": "MenuSection", "name": "Tés" },
+      { "@type": "MenuSection", "name": "Raspados" },
+      { "@type": "MenuSection", "name": "Galletas" },
+      { "@type": "MenuSection", "name": "Postres" },
+      { "@type": "MenuSection", "name": "Pan y Waffles" }
+    ]
+  }
+  </script>
+</head>
+<body class="menu-page">
+
+  <!-- ── Navbar ─────────────────────────────────── -->
+  <nav id="navbar" class="scrolled" role="navigation" aria-label="Navegación">
+    <div class="container nav-inner">
+      <a href="index.html" class="nav-logo" aria-label="Volver al inicio">
+        <img src="assets/images/logo.png" alt="Logo Cafetería La Encantada" width="48" height="48" />
+        <span>La <strong>Encantada</strong></span>
+      </a>
+      <div class="nav-links">
+        <a href="index.html">Inicio</a>
+        <a href="index.html#nosotros">Nosotros</a>
+        <a href="index.html#servicios">Servicios</a>
+        <a href="index.html#horario">Horario</a>
+      </div>
+      <button class="hamburger" id="hamburger" aria-label="Abrir menú" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- Mobile Menu -->
+  <nav class="mobile-menu" id="mobile-menu" aria-label="Menú móvil">
+    <a href="index.html" class="mobile-link">Inicio</a>
+    <a href="index.html#nosotros" class="mobile-link">Nosotros</a>
+    <a href="index.html#servicios" class="mobile-link">Servicios</a>
+    <a href="index.html#horario" class="mobile-link">Horario</a>
+  </nav>
+
+  <main>
+    <!-- ── Hero del Menú ──────────────────────── -->
+    <header class="menu-page-hero" role="banner">
+      <div class="container">
+        <div class="menu-hero-badge">📋 Menú Digital</div>
+        <h1>Nuestro <em>Menú</em></h1>
+        <p>Todo lo que preparamos con cariño para ti · Horario: 6pm — 10pm</p>
+        <div class="menu-hero-note">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/></svg>
+          Los precios son en pesos mexicanos (MXN) · Vigencia sujeta a cambios
+        </div>
+      </div>
+    </header>
+
+    <!-- ── Quick Nav ──────────────────────────── -->
+    <nav class="menu-quick-nav" aria-label="Secciones del menú">
+      <div class="container menu-quick-inner">
+        <a href="#sec-cafe" class="menu-quick-btn">☕ Café</a>
+        <a href="#sec-tes" class="menu-quick-btn">🍵 Tés</a>
+        <a href="#sec-raspados" class="menu-quick-btn">🍧 Raspados</a>
+        <a href="#sec-galletas" class="menu-quick-btn">🍪 Galletas</a>
+        <a href="#sec-postres" class="menu-quick-btn">🍮 Postres</a>
+        <a href="#sec-pan" class="menu-quick-btn">🧇 Pan</a>
+        <a href="#sec-extra" class="menu-quick-btn">🍜 Extra</a>
+        <a href="#sec-entretenimiento" class="menu-quick-btn">🎲 Entretenimiento</a>
+      </div>
+    </nav>
+
+    <!-- ── Menu Body ──────────────────────────── -->
+    <div class="menu-page-body">
+      <div class="container">
+
+        <!-- CAFÉ -->
+        <section class="menu-section reveal" id="sec-cafe" aria-labelledby="title-cafe">
+          <h2 class="menu-section-title" id="title-cafe">
+            <span aria-hidden="true">☕</span> Café tipo Cappuccino
+          </h2>
+          <p class="menu-section-note">Disponibles en tamaño chico ($23) y grande ($28)</p>
+          <div class="menu-full-grid">
+            <div class="menu-full-item" tabindex="0">
+              <div>
+                <div class="menu-full-item-name">La Encantada</div>
+                <div class="menu-full-item-sub">Nuestra receta exclusiva — la firma del lugar</div>
+              </div>
+              <div class="menu-full-item-price">$23 / $28</div>
+            </div>
+            <div class="menu-full-item" tabindex="0">
+              <div>
+                <div class="menu-full-item-name">Vainilla</div>
+                <div class="menu-full-item-sub">Suave y dulce aroma de vainilla natural</div>
+              </div>
+              <div class="menu-full-item-price">$23 / $28</div>
+            </div>
+            <div class="menu-full-item" tabindex="0">
+              <div>
+                <div class="menu-full-item-name">Moka</div>
+                <div class="menu-full-item-sub">Combinación perfecta de café y chocolate</div>
+              </div>
+              <div class="menu-full-item-price">$23 / $28</div>
+            </div>
+            <div class="menu-full-item" tabindex="0">
+              <div>
+                <div class="menu-full-item-name">Avellana</div>
+                <div class="menu-full-item-sub">Nuez tostada con cremosidad perfecta</div>
+              </div>
+              <div class="menu-full-item-price">$23 / $28</div>
+            </div>
+            <div class="menu-full-item" tabindex="0">
+              <div>
+                <div class="menu-full-item-name">Original</div>
+                <div class="menu-full-item-sub">El clásico cappuccino sin igual</div>
+              </div>
+              <div class="menu-full-item-price">$23 / $28</div>
+            </div>
+          </div>
+
+          <div class="menu-subsection">
+            <h3 class="menu-subsection-title">Café tipo Olla (negro)</h3>
+            <div class="menu-full-grid">
+              <div class="menu-full-item" tabindex="0">
+                <div>
+                  <div class="menu-full-item-name">Café Tipo Olla</div>
+                  <div class="menu-full-item-sub">Café negro tradicional, puro y aromático</div>
+                </div>
+                <div class="menu-full-item-price">$15</div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- TÉS -->
+        <section class="menu-section reveal" id="sec-tes" aria-labelledby="title-tes">
+          <h2 class="menu-section-title" id="title-tes">
+            <span aria-hidden="true">🍵</span> Tés
+          </h2>
+          <p class="menu-section-note">Chico $10 · Grande $15</p>
+          <div class="menu-full-grid">
+            <div class="menu-full-item" tabindex="0">
+              <div>
+                <div class="menu-full-item-name">Manzanilla</div>
+                <div class="menu-full-item-sub">Tranquilizante, ideal para relajarse</div>
+              </div>
+              <div class="menu-full-item-price">$10 / $15</div>
+            </div>
+            <div class="menu-full-item" tabindex="0">
+              <div>
+                <div class="menu-full-item-name">Hierbabuena</div>
+                <div class="menu-full-item-sub">Refrescante y digestivo, sabor intenso</div>
+              </div>
+              <div class="menu-full-item-price">$10 / $15</div>
+            </div>
+            <div class="menu-full-item" tabindex="0">
+              <div>
+                <div class="menu-full-item-name">Relajante</div>
+                <div class="menu-full-item-sub">Mezcla especial para momentos de paz</div>
+              </div>
+              <div class="menu-full-item-price">$10 / $15</div>
+            </div>
+          </div>
+        </section>
+
+        <!-- RASPADOS -->
+        <section class="menu-section reveal" id="sec-raspados" aria-labelledby="title-raspados">
+          <h2 class="menu-section-title" id="title-raspados">
+            <span aria-hidden="true">🍧</span> Raspados
+          </h2>
+          <p class="menu-section-note">Todos a $13 c/u</p>
+          <div class="menu-full-grid">
+            <div class="menu-full-item" tabindex="0">
+              <div><div class="menu-full-item-name">Vainilla</div></div>
+              <div class="menu-full-item-price">$13</div>
+            </div>
+            <div class="menu-full-item" tabindex="0">
+              <div><div class="menu-full-item-name">Limón</div></div>
+              <div class="menu-full-item-price">$13</div>
+            </div>
+            <div class="menu-full-item" tabindex="0">
+              <div><div class="menu-full-item-name">Uva</div></div>
+              <div class="menu-full-item-price">$13</div>
+            </div>
+            <div class="menu-full-item" tabindex="0">
+              <div><div class="menu-full-item-name">Chicle Azul</div></div>
+              <div class="menu-full-item-price">$13</div>
+            </div>
+            <div class="menu-full-item" tabindex="0">
+              <div><div class="menu-full-item-name">Chicle Rosa</div></div>
+              <div class="menu-full-item-price">$13</div>
+            </div>
+            <div class="menu-full-item" tabindex="0">
+              <div><div class="menu-full-item-name">Rompope</div></div>
+              <div class="menu-full-item-price">$13</div>
+            </div>
+            <div class="menu-full-item" tabindex="0">
+              <div><div class="menu-full-item-name">Grosella</div></div>
+              <div class="menu-full-item-price">$13</div>
+            </div>
+          </div>
+        </section>
+
+        <!-- GALLETAS -->
+        <section class="menu-section reveal" id="sec-galletas" aria-labelledby="title-galletas">
+          <h2 class="menu-section-title" id="title-galletas">
+            <span aria-hidden="true">🍪</span> Galletas
+          </h2>
+          <p class="menu-section-note">$3.50 c/u</p>
+          <div class="menu-full-grid">
+            <div class="menu-full-item" tabindex="0">
+              <div><div class="menu-full-item-name">Galleta de Miel</div></div>
+              <div class="menu-full-item-price">$3.50</div>
+            </div>
+            <div class="menu-full-item" tabindex="0">
+              <div><div class="menu-full-item-name">Galleta Calcetín</div></div>
+              <div class="menu-full-item-price">$3.50</div>
+            </div>
+            <div class="menu-full-item" tabindex="0">
+              <div><div class="menu-full-item-name">Galleta de Avena</div></div>
+              <div class="menu-full-item-price">$3.50</div>
+            </div>
+            <div class="menu-full-item" tabindex="0">
+              <div><div class="menu-full-item-name">Galleta de Gragea</div></div>
+              <div class="menu-full-item-price">$3.50</div>
+            </div>
+          </div>
+        </section>
+
+        <!-- POSTRES -->
+        <section class="menu-section reveal" id="sec-postres" aria-labelledby="title-postres">
+          <h2 class="menu-section-title" id="title-postres">
+            <span aria-hidden="true">🍮</span> Postres de Vasito
+          </h2>
+          <p class="menu-section-note">$18 c/u</p>
+          <div class="menu-full-grid">
+            <div class="menu-full-item" tabindex="0">
+              <div>
+                <div class="menu-full-item-name">Postre de Coco</div>
+                <div class="menu-full-item-sub">Cremoso y refrescante</div>
+              </div>
+              <div class="menu-full-item-price">$18</div>
+            </div>
+            <div class="menu-full-item" tabindex="0">
+              <div>
+                <div class="menu-full-item-name">Postre de Arroz</div>
+                <div class="menu-full-item-sub">Clásico arroz con leche</div>
+              </div>
+              <div class="menu-full-item-price">$18</div>
+            </div>
+            <div class="menu-full-item" tabindex="0">
+              <div>
+                <div class="menu-full-item-name">Postre Mosaico</div>
+                <div class="menu-full-item-sub">Colorido y delicioso</div>
+              </div>
+              <div class="menu-full-item-price">$18</div>
+            </div>
+          </div>
+        </section>
+
+        <!-- PAN / WAFFLES -->
+        <section class="menu-section reveal" id="sec-pan" aria-labelledby="title-pan">
+          <h2 class="menu-section-title" id="title-pan">
+            <span aria-hidden="true">🧇</span> Pan
+          </h2>
+          <div class="menu-full-grid">
+            <div class="menu-full-item" tabindex="0">
+              <div>
+                <div class="menu-full-item-name">Waffles</div>
+                <div class="menu-full-item-sub">Sencillos y esponjosos — perfectos con café</div>
+              </div>
+              <div class="menu-full-item-price">$20</div>
+            </div>
+          </div>
+        </section>
+
+        <!-- EXTRA -->
+        <section class="menu-section reveal" id="sec-extra" aria-labelledby="title-extra">
+          <h2 class="menu-section-title" id="title-extra">
+            <span aria-hidden="true">🍜</span> Extra
+          </h2>
+          <div class="menu-full-grid">
+            <div class="menu-full-item" tabindex="0">
+              <div>
+                <div class="menu-full-item-name">Maruchan</div>
+                <div class="menu-full-item-sub">Normal — el antojo clásico de medianoche</div>
+              </div>
+              <div class="menu-full-item-price">$25</div>
+            </div>
+          </div>
+        </section>
+
+        <!-- ENTRETENIMIENTO -->
+        <section class="menu-section reveal menu-entertainment" id="sec-entretenimiento" aria-labelledby="title-ent">
+          <h2 class="menu-section-title" id="title-ent">
+            <span aria-hidden="true">🎲</span> Entretenimiento
+          </h2>
+          <p class="menu-section-note">Incluido sin costo adicional con tu consumo</p>
+
+          <div class="entertainment-grid">
+            <div class="ent-category">
+              <h3 class="ent-cat-title">♟ Juegos de Mesa</h3>
+              <ul class="ent-list">
+                <li>♟ Ajedrez</li>
+                <li>🁣 Dominó</li>
+                <li>🃏 Secuencia</li>
+                <li>🎯 Cubo</li>
+                <li>🪵 Jenga</li>
+                <li>🎴 Lotería</li>
+                <li>🔴 Damas Chinas</li>
+                <li>⚫ Damas Inglesas</li>
+              </ul>
+            </div>
+            <div class="ent-category">
+              <h3 class="ent-cat-title">🎬 Área de Cine</h3>
+              <ul class="ent-list">
+                <li>🧒 Películas Infantiles</li>
+                <li>👻 Películas de Terror</li>
+                <li>🎬 A tu elección (con anticipación)</li>
+              </ul>
+              <div class="ent-note">
+                ⭐ ¿Quieres ver una película específica? Solicítala con anticipación. Cupo limitado.
+              </div>
+            </div>
+            <div class="ent-category">
+              <h3 class="ent-cat-title">🌿 Zona Relajante</h3>
+              <ul class="ent-list">
+                <li>🛋 Espacio cómodo y tranquilo</li>
+                <li>💬 Para platicar con amigos</li>
+                <li>📱 Desconéctate del estrés</li>
+              </ul>
+            </div>
+          </div>
+        </section>
+
+        <!-- Nota de precios -->
+        <div class="menu-price-note reveal">
+          <div class="menu-price-note-inner">
+            <p>
+              💡 <strong>Nota:</strong> Precios en pesos mexicanos (MXN). Vigentes sujeto a cambios sin previo aviso.
+              ¡Gracias por visitarnos y esperamos verte pronto en La Encantada! ☕
+            </p>
+            <a href="index.html" class="btn-primary" style="margin-top:1.5rem;display:inline-flex;">← Regresar al inicio</a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </main>
+
+  <!-- ── Footer ─────────────────────────────────── -->
+  <footer id="footer" role="contentinfo">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <img src="assets/images/logo.png" alt="Logo Cafetería La Encantada" width="60" height="60" loading="lazy" />
+          <p>Cafetería La Encantada — Tu lugar para relajarte y disfrutar. Horario: 6pm a 10pm, todos los días.</p>
+        </div>
+        <div class="footer-col">
+          <h4>Navegación</h4>
+          <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="index.html#servicios">Servicios</a></li>
+            <li><a href="index.html#horario">Horario</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Menú</h4>
+          <ul>
+            <li><a href="#sec-cafe">Café</a></li>
+            <li><a href="#sec-raspados">Raspados</a></li>
+            <li><a href="#sec-entretenimiento">Entretenimiento</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© 2024 Cafetería La Encantada. Todos los derechos reservados.</p>
+        <p><a href="index.html">← Regresar al inicio</a></p>
+      </div>
+    </div>
+  </footer>
+
+  <button id="back-to-top" aria-label="Volver al inicio de la página">
+    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="18 15 12 9 6 15"/></svg>
+  </button>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

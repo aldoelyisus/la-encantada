@@ -1,0 +1,710 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- ── SEO Primary Meta ─────────────────────────── -->
+  <title>Cafetería La Encantada — Tu lugar para relajarte y disfrutar</title>
+  <meta name="description" content="Cafetería La Encantada: el espacio perfecto para jóvenes. Disfruta de deliciosos cafés, tés, raspados, juegos de mesa y cine en un ambiente elegante y acogedor. Horario 6pm a 10pm." />
+  <meta name="keywords" content="cafetería, café, la encantada, jóvenes, juegos de mesa, raspados, cine, cappuccino, tés, galletas, waffles, lugar para salir" />
+  <meta name="author" content="Cafetería La Encantada" />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://la-encantada.com/" />
+
+  <!-- ── Open Graph / Social ─────────────────────── -->
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://la-encantada.com/" />
+  <meta property="og:title" content="Cafetería La Encantada — Tu lugar para relajarte" />
+  <meta property="og:description" content="El espacio perfecto para jóvenes. Cafés artesanales, raspados, juegos de mesa y noches de cine. Horario 6pm–10pm." />
+  <meta property="og:image" content="assets/images/hero-bg.png" />
+  <meta property="og:locale" content="es_MX" />
+
+  <!-- ── Twitter Card ─────────────────────────────── -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Cafetería La Encantada" />
+  <meta name="twitter:description" content="Tu lugar para relajarte y disfrutar. Cafés, juegos de mesa y cine." />
+  <meta name="twitter:image" content="assets/images/hero-bg.png" />
+
+  <!-- ── Favicon ──────────────────────────────────── -->
+  <link rel="icon" type="image/png" href="assets/images/logo.png" />
+  <link rel="apple-touch-icon" href="assets/images/logo.png" />
+
+  <!-- ── Google Fonts ─────────────────────────────── -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600&family=Lato:wght@300;400;700&display=swap" rel="stylesheet" />
+
+  <!-- ── Styles ───────────────────────────────────── -->
+  <link rel="stylesheet" href="css/style.css" />
+
+  <!-- ── Schema.org JSON-LD ───────────────────────── -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "CafeOrCoffeeShop",
+    "name": "Cafetería La Encantada",
+    "description": "Cafetería elegante para jóvenes con café artesanal, raspados, juegos de mesa y área de cine.",
+    "url": "https://la-encantada.com",
+    "image": "https://la-encantada.com/assets/images/hero-bg.png",
+    "servesCuisine": ["Café", "Bebidas", "Postres", "Snacks"],
+    "openingHours": "Mo-Su 18:00-22:00",
+    "priceRange": "$",
+    "menu": "https://la-encantada.com/menu.html"
+  }
+  </script>
+</head>
+<body>
+
+  <!-- ════════════════════════════════════════════════
+       NAVBAR
+  ════════════════════════════════════════════════ -->
+  <nav id="navbar" role="navigation" aria-label="Navegación principal">
+    <div class="container nav-inner">
+      <a href="#hero" class="nav-logo" aria-label="Ir al inicio - La Encantada">
+        <img src="assets/images/logo.png" alt="Logo Cafetería La Encantada" width="48" height="48" />
+        <span>La <strong>Encantada</strong></span>
+      </a>
+
+      <div class="nav-links" id="nav-links">
+        <a href="#nosotros">Nosotros</a>
+        <a href="#servicios">Servicios</a>
+        <a href="#menu-preview">Menú</a>
+        <a href="#horario">Horario</a>
+        <a href="menu.html" class="btn-nav" id="nav-menu-btn">Ver Menú Completo</a>
+      </div>
+
+      <button class="hamburger" id="hamburger" aria-label="Abrir menú" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- Mobile Menu -->
+  <nav class="mobile-menu" id="mobile-menu" aria-label="Menú móvil">
+    <a href="#nosotros" class="mobile-link">Nosotros</a>
+    <a href="#servicios" class="mobile-link">Servicios</a>
+    <a href="#menu-preview" class="mobile-link">Menú</a>
+    <a href="#horario" class="mobile-link">Horario</a>
+    <a href="menu.html" class="btn-menu-mobile">Ver Menú Completo</a>
+  </nav>
+
+  <!-- ════════════════════════════════════════════════
+       HERO
+  ════════════════════════════════════════════════ -->
+  <main>
+    <section id="hero" aria-label="Bienvenida">
+      <div class="hero-bg" id="hero-bg" role="img" aria-label="Interior acogedor de la cafetería"></div>
+
+      <div class="container">
+        <div class="hero-content">
+          <div class="hero-badge">☕ Abierto de 6pm a 10pm</div>
+
+          <h1 class="hero-title">
+            Un lugar donde
+            <em>todo se siente</em>
+            especial
+          </h1>
+
+          <p class="hero-desc">
+            Café artesanal, raspados, juegos de mesa, noches de cine
+            y el mejor ambiente para pasar un rato con tus amigos.
+            Bienvenido a <strong>La Encantada</strong>.
+          </p>
+
+          <div class="hero-actions">
+            <a href="#menu-preview" class="btn-primary" id="hero-menu-btn">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M9 5H7a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V7a2 2 0 0 0-2-2h-2"/><rect x="9" y="3" width="6" height="4" rx="1"/></svg>
+              Ver el Menú
+            </a>
+            <a href="#nosotros" class="btn-secondary" id="hero-about-btn">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 8 12 12 14 14"/></svg>
+              Conócenos
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="scroll-indicator" aria-hidden="true">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+        <span>Explorar</span>
+      </div>
+    </section>
+
+    <!-- ════════════════════════════════════════════
+         STATS BAR
+    ════════════════════════════════════════════ -->
+    <section id="stats" aria-label="Números de La Encantada">
+      <div class="container">
+        <div class="stats-grid">
+          <div class="stat-item reveal">
+            <span class="stat-number" data-target="8">0+</span>
+            <span class="stat-label">Juegos de Mesa</span>
+          </div>
+          <div class="stat-item reveal">
+            <span class="stat-number" data-target="15">0+</span>
+            <span class="stat-label">Bebidas en Menú</span>
+          </div>
+          <div class="stat-item reveal">
+            <span class="stat-number" data-target="7">0</span>
+            <span class="stat-label">Sabores Raspado</span>
+          </div>
+          <div class="stat-item reveal">
+            <span class="stat-number">4h</span>
+            <span class="stat-label">De Entretenimiento</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ════════════════════════════════════════════
+         NOSOTROS
+    ════════════════════════════════════════════ -->
+    <section id="nosotros" aria-labelledby="nosotros-title">
+      <div class="container">
+        <div class="about-grid">
+          <div class="about-img-wrap reveal-left">
+            <img
+              src="assets/images/drinks.png"
+              alt="Deliciosas bebidas de cafetería La Encantada — cappuccinos y cafés artesanales"
+              width="600"
+              height="480"
+              loading="lazy"
+            />
+            <div class="about-img-badge">
+              <strong>100%</strong>
+              <span>Ambiente único</span>
+            </div>
+          </div>
+
+          <div class="about-text reveal-right">
+            <span class="section-tag">Nuestra historia</span>
+            <h2 class="section-title" id="nosotros-title">
+              Más que una cafetería,<br />
+              <em>es una experiencia</em>
+            </h2>
+            <p class="section-subtitle">
+              La Encantada nació para ser el lugar al que siempre quieres volver.
+              Un espacio donde el café es artesanal, el ambiente es mágico y
+              cada visita se convierte en un recuerdo.
+            </p>
+
+            <div class="about-features">
+              <div class="about-feature">
+                <div class="about-feature-icon">☕</div>
+                <div class="about-feature-text">
+                  <strong>Café de especialidad</strong>
+                  <span>Cappuccinos, mokkas, vainilla y más — preparados con amor</span>
+                </div>
+              </div>
+              <div class="about-feature">
+                <div class="about-feature-icon">🎲</div>
+                <div class="about-feature-text">
+                  <strong>Juegos de mesa para todos</strong>
+                  <span>Ajedrez, Jenga, Domino, Lotería y más — ¡diversión garantizada!</span>
+                </div>
+              </div>
+              <div class="about-feature">
+                <div class="about-feature-icon">🎬</div>
+                <div class="about-feature-text">
+                  <strong>Área de cine</strong>
+                  <span>Películas infantiles, de terror, o ¡la que tú elijas!</span>
+                </div>
+              </div>
+              <div class="about-feature">
+                <div class="about-feature-icon">🌟</div>
+                <div class="about-feature-text">
+                  <strong>Ambiente relajante</strong>
+                  <span>El lugar ideal para desconectarte y recargar energía</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ════════════════════════════════════════════
+         SERVICIOS
+    ════════════════════════════════════════════ -->
+    <section id="servicios" aria-labelledby="servicios-title">
+      <div class="container">
+        <header class="servicios-header">
+          <span class="section-tag reveal">Lo que ofrecemos</span>
+          <h2 class="section-title reveal" id="servicios-title">Todo lo que necesitas<br /><em>en un solo lugar</em></h2>
+          <p class="section-subtitle reveal" style="margin-left:auto;margin-right:auto;text-align:center;">
+            Desde el primer café de la tarde hasta el último juego de la noche,
+            La Encantada tiene todo para que tu momento sea perfecto.
+          </p>
+        </header>
+
+        <div class="servicios-grid">
+          <!-- Card 1: Café & Bebidas -->
+          <article class="servicio-card reveal" tabindex="0" aria-label="Servicio: Café y Bebidas Calientes">
+            <div class="servicio-card-img-wrap">
+              <img
+                src="assets/images/drinks.png"
+                alt="Variedad de cafés artesanales y tés en La Encantada"
+                class="servicio-card-img"
+                width="400"
+                height="200"
+                loading="lazy"
+              />
+            </div>
+            <div class="servicio-card-body">
+              <div class="servicio-card-icon">☕</div>
+              <h3 class="servicio-card-title">Café & Bebidas Calientes</h3>
+              <p class="servicio-card-desc">
+                Cappuccinos en 5 sabores únicos, café tipo olla y una selección
+                de tés relajantes. La bebida perfecta para cada momento.
+              </p>
+              <div class="servicio-tags">
+                <span class="tag">Cappuccino</span>
+                <span class="tag">Moka</span>
+                <span class="tag">Vainilla</span>
+                <span class="tag">Avellana</span>
+                <span class="tag">Tés</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Card 2: Raspados & Snacks -->
+          <article class="servicio-card reveal" tabindex="0" aria-label="Servicio: Raspados y Snacks">
+            <div class="servicio-card-img-wrap">
+              <img
+                src="assets/images/snacks.png"
+                alt="Raspados coloridos, galletas y waffles de La Encantada"
+                class="servicio-card-img"
+                width="400"
+                height="200"
+                loading="lazy"
+              />
+            </div>
+            <div class="servicio-card-body">
+              <div class="servicio-card-icon">🍧</div>
+              <h3 class="servicio-card-title">Raspados & Snacks</h3>
+              <p class="servicio-card-desc">
+                Raspados en 7 sabores irresistibles, galletas artesanales,
+                waffles, postres de vasito y hasta maruchan para los más antojados.
+              </p>
+              <div class="servicio-tags">
+                <span class="tag">Raspados</span>
+                <span class="tag">Galletas</span>
+                <span class="tag">Waffles</span>
+                <span class="tag">Postres</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Card 3: Juegos de Mesa -->
+          <article class="servicio-card reveal" tabindex="0" aria-label="Servicio: Juegos de Mesa">
+            <div class="servicio-card-img-wrap">
+              <img
+                src="assets/images/games.png"
+                alt="Juegos de mesa como ajedrez, jenga y lotería en La Encantada"
+                class="servicio-card-img"
+                width="400"
+                height="200"
+                loading="lazy"
+              />
+            </div>
+            <div class="servicio-card-body">
+              <div class="servicio-card-icon">🎲</div>
+              <h3 class="servicio-card-title">Juegos de Mesa</h3>
+              <p class="servicio-card-desc">
+                8 juegos clásicos disponibles para retarte con tus amigos:
+                ajedrez, Jenga, domino, secuencia, lotería, damas y más.
+              </p>
+              <div class="servicio-tags">
+                <span class="tag">Ajedrez</span>
+                <span class="tag">Jenga</span>
+                <span class="tag">Domino</span>
+                <span class="tag">Lotería</span>
+                <span class="tag">+más</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Card 4: Área Cine (span 2 on md) -->
+          <article class="servicio-card reveal" tabindex="0" aria-label="Servicio: Área de Cine">
+            <div class="servicio-card-img-wrap">
+              <img
+                src="assets/images/cinema.png"
+                alt="Área de cine acogedor de Cafetería La Encantada con pantalla y butacas"
+                class="servicio-card-img"
+                width="400"
+                height="200"
+                loading="lazy"
+              />
+            </div>
+            <div class="servicio-card-body">
+              <div class="servicio-card-icon">🎬</div>
+              <h3 class="servicio-card-title">Área de Cine</h3>
+              <p class="servicio-card-desc">
+                Películas infantiles y de terror en nuestro espacio especial.
+                ¿Tienes una película favorita? ¡Pídela con anticipación! (cupo limitado)
+              </p>
+              <div class="servicio-tags">
+                <span class="tag">Infantiles</span>
+                <span class="tag">Terror</span>
+                <span class="tag">A tu elección</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Card 5: Relajación -->
+          <article class="servicio-card reveal" tabindex="0" aria-label="Servicio: Zona de Relajación">
+            <div class="servicio-card-img-wrap">
+              <img
+                src="assets/images/hero-bg.png"
+                alt="Zona de relajación y ambiente acogedor en La Encantada"
+                class="servicio-card-img"
+                width="400"
+                height="200"
+                loading="lazy"
+              />
+            </div>
+            <div class="servicio-card-body">
+              <div class="servicio-card-icon">🌿</div>
+              <h3 class="servicio-card-title">Zona Relajante</h3>
+              <p class="servicio-card-desc">
+                Lo principal: un espacio pensado para desconectarte del estrés,
+                disfrutar buena compañía y simplemente sentirte bien.
+              </p>
+              <div class="servicio-tags">
+                <span class="tag">Ambiente único</span>
+                <span class="tag">Confort</span>
+                <span class="tag">Bienestar</span>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ════════════════════════════════════════════
+         MENU PREVIEW
+    ════════════════════════════════════════════ -->
+    <section id="menu-preview" aria-labelledby="menu-preview-title">
+      <div class="container">
+        <header class="menu-preview-header">
+          <span class="section-tag reveal">Lo que preparamos</span>
+          <h2 class="section-title reveal" id="menu-preview-title">Nuestro <em>Menú</em></h2>
+          <p class="section-subtitle reveal">
+            Del café más suave al raspado más fresco — todo hecho para tu gusto.
+          </p>
+        </header>
+
+        <!-- Category Tabs -->
+        <div class="menu-categories" role="tablist" aria-label="Categorías del menú">
+          <button class="menu-cat-btn active" data-panel="panel-cafe" role="tab" aria-selected="true" id="tab-cafe">Cafés</button>
+          <button class="menu-cat-btn" data-panel="panel-tes" role="tab" aria-selected="false" id="tab-tes">Tés</button>
+          <button class="menu-cat-btn" data-panel="panel-raspados" role="tab" aria-selected="false" id="tab-raspados">Raspados</button>
+          <button class="menu-cat-btn" data-panel="panel-snacks" role="tab" aria-selected="false" id="tab-snacks">Snacks</button>
+        </div>
+
+        <!-- Café Panel -->
+        <div class="menu-panel menu-items-grid active" id="panel-cafe" role="tabpanel" aria-labelledby="tab-cafe">
+          <div class="menu-item reveal">
+            <div>
+              <div class="menu-item-name">Cappuccino La Encantada</div>
+              <div class="menu-item-sub">Nuestra firma especial</div>
+            </div>
+            <div class="menu-item-price">$23–$28</div>
+          </div>
+          <div class="menu-item reveal">
+            <div>
+              <div class="menu-item-name">Cappuccino Vainilla</div>
+              <div class="menu-item-sub">Suave y aromático</div>
+            </div>
+            <div class="menu-item-price">$23–$28</div>
+          </div>
+          <div class="menu-item reveal">
+            <div>
+              <div class="menu-item-name">Cappuccino Moka</div>
+              <div class="menu-item-sub">Chocolate intenso</div>
+            </div>
+            <div class="menu-item-price">$23–$28</div>
+          </div>
+          <div class="menu-item reveal">
+            <div>
+              <div class="menu-item-name">Cappuccino Avellana</div>
+              <div class="menu-item-sub">Sabor nuez tostada</div>
+            </div>
+            <div class="menu-item-price">$23–$28</div>
+          </div>
+          <div class="menu-item reveal">
+            <div>
+              <div class="menu-item-name">Cappuccino Original</div>
+              <div class="menu-item-sub">Clásico y delicioso</div>
+            </div>
+            <div class="menu-item-price">$23–$28</div>
+          </div>
+          <div class="menu-item reveal">
+            <div>
+              <div class="menu-item-name">Café Tipo Olla</div>
+              <div class="menu-item-sub">Café negro tradicional</div>
+            </div>
+            <div class="menu-item-price">$15</div>
+          </div>
+        </div>
+
+        <!-- Tés Panel -->
+        <div class="menu-panel menu-items-grid" id="panel-tes" role="tabpanel" aria-labelledby="tab-tes">
+          <div class="menu-item reveal">
+            <div>
+              <div class="menu-item-name">Té de Manzanilla</div>
+              <div class="menu-item-sub">Tranquilizante y natural</div>
+            </div>
+            <div class="menu-item-price">$10–$15</div>
+          </div>
+          <div class="menu-item reveal">
+            <div>
+              <div class="menu-item-name">Té de Hierbabuena</div>
+              <div class="menu-item-sub">Refrescante y digestivo</div>
+            </div>
+            <div class="menu-item-price">$10–$15</div>
+          </div>
+          <div class="menu-item reveal">
+            <div>
+              <div class="menu-item-name">Té Relajante</div>
+              <div class="menu-item-sub">Para los momentos de paz</div>
+            </div>
+            <div class="menu-item-price">$10–$15</div>
+          </div>
+        </div>
+
+        <!-- Raspados Panel -->
+        <div class="menu-panel menu-items-grid" id="panel-raspados" role="tabpanel" aria-labelledby="tab-raspados">
+          <div class="menu-item reveal">
+            <div><div class="menu-item-name">Raspado de Vainilla</div></div>
+            <div class="menu-item-price">$13</div>
+          </div>
+          <div class="menu-item reveal">
+            <div><div class="menu-item-name">Raspado de Limón</div></div>
+            <div class="menu-item-price">$13</div>
+          </div>
+          <div class="menu-item reveal">
+            <div><div class="menu-item-name">Raspado de Uva</div></div>
+            <div class="menu-item-price">$13</div>
+          </div>
+          <div class="menu-item reveal">
+            <div><div class="menu-item-name">Raspado Chicle Azul</div></div>
+            <div class="menu-item-price">$13</div>
+          </div>
+          <div class="menu-item reveal">
+            <div><div class="menu-item-name">Raspado Chicle Rosa</div></div>
+            <div class="menu-item-price">$13</div>
+          </div>
+          <div class="menu-item reveal">
+            <div><div class="menu-item-name">Raspado Rompope</div></div>
+            <div class="menu-item-price">$13</div>
+          </div>
+          <div class="menu-item reveal">
+            <div><div class="menu-item-name">Raspado Grosella</div></div>
+            <div class="menu-item-price">$13</div>
+          </div>
+        </div>
+
+        <!-- Snacks Panel -->
+        <div class="menu-panel menu-items-grid" id="panel-snacks" role="tabpanel" aria-labelledby="tab-snacks">
+          <div class="menu-item reveal">
+            <div>
+              <div class="menu-item-name">Galletas (c/u)</div>
+              <div class="menu-item-sub">Miel, calcetín, avena, gragea</div>
+            </div>
+            <div class="menu-item-price">$3.50</div>
+          </div>
+          <div class="menu-item reveal">
+            <div>
+              <div class="menu-item-name">Waffles</div>
+              <div class="menu-item-sub">Sencillos y esponjosos</div>
+            </div>
+            <div class="menu-item-price">$20</div>
+          </div>
+          <div class="menu-item reveal">
+            <div>
+              <div class="menu-item-name">Postres de Vasito</div>
+              <div class="menu-item-sub">Coco, arroz, mosaico</div>
+            </div>
+            <div class="menu-item-price">$18</div>
+          </div>
+          <div class="menu-item reveal">
+            <div>
+              <div class="menu-item-name">Maruchan</div>
+              <div class="menu-item-sub">Normal — el clásico antojo</div>
+            </div>
+            <div class="menu-item-price">$25</div>
+          </div>
+        </div>
+
+        <div class="menu-preview-cta reveal">
+          <a href="menu.html" class="btn-gold" id="full-menu-btn">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M9 5H7a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V7a2 2 0 0 0-2-2h-2"/><rect x="9" y="3" width="6" height="4" rx="1"/></svg>
+            Ver Menú Completo
+          </a>
+          <p style="margin-top:1rem;font-size:0.85rem;color:var(--cream-dark);">
+            ¿Sin internet? Escanea el QR abajo y accede al menú directamente 📱
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ════════════════════════════════════════════
+         QR SECTION
+    ════════════════════════════════════════════ -->
+    <section id="qr-section" aria-labelledby="qr-title">
+      <div class="container">
+        <div class="qr-inner reveal">
+          <div class="qr-text">
+            <span class="section-tag">Acceso rápido</span>
+            <h2 class="section-title" id="qr-title">Escanea y ve<br /><em>el menú completo</em></h2>
+            <p>
+              Desde tu celular, escanea el código QR con la cámara y accede
+              al menú completo de La Encantada al instante — sin necesidad
+              de buscar la página.
+            </p>
+            <a href="menu.html" class="btn-primary" id="qr-direct-btn" style="display:inline-flex;">
+              O haz clic aquí para el menú
+            </a>
+          </div>
+          <div class="qr-box">
+            <div id="qr-canvas-container">
+              <canvas id="qr-canvas" width="160" height="160"></canvas>
+            </div>
+            <span>Apunta la cámara<br />para abrir el menú</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ════════════════════════════════════════════
+         HORARIO
+    ════════════════════════════════════════════ -->
+    <section id="horario" aria-labelledby="horario-title">
+      <div class="container">
+        <div class="text-center">
+          <span class="section-tag reveal">Planea tu visita</span>
+          <h2 class="section-title reveal" id="horario-title">Horario &amp; <em>Lo que ofrecemos</em></h2>
+          <p class="section-subtitle reveal" style="margin-left:auto;margin-right:auto;text-align:center;">
+            Cada tarde es una oportunidad perfecta para venir a La Encantada.
+          </p>
+        </div>
+
+        <div class="horario-grid">
+          <div class="horario-card reveal-left">
+            <div class="horario-time">
+              6pm — 10pm
+              <span>Lunes a Domingo</span>
+            </div>
+            <div class="horario-separator"></div>
+            <div class="horario-days">Abiertos todas las noches</div>
+            <p style="font-size:0.85rem;color:var(--text-muted);margin-top:1rem;line-height:1.6;">
+              El mejor momento para venir es con tus amigos después de clases.
+              ¡4 horas de diversión te esperan!
+            </p>
+          </div>
+
+          <div class="horario-features reveal-right">
+            <div class="horario-feature">
+              <div class="horario-feature-icon">☕</div>
+              <div>
+                <strong>Bebidas calientes disponibles toda la noche</strong>
+                <span>Cafés, cappuccinos y tés desde las 6pm</span>
+              </div>
+            </div>
+            <div class="horario-feature">
+              <div class="horario-feature-icon">🎲</div>
+              <div>
+                <strong>Juegos de mesa sin cargo extra</strong>
+                <span>Ajedrez, Jenga, Domino, Secuencia, Lotería y más</span>
+              </div>
+            </div>
+            <div class="horario-feature">
+              <div class="horario-feature-icon">🎬</div>
+              <div>
+                <strong>Función de cine</strong>
+                <span>¡Pide tu película con anticipación!</span>
+              </div>
+            </div>
+            <div class="horario-feature">
+              <div class="horario-feature-icon">🍧</div>
+              <div>
+                <strong>Raspados y antojitos</strong>
+                <span>Frescos y disponibles durante toda la noche</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ════════════════════════════════════════════════
+       FOOTER
+  ════════════════════════════════════════════════ -->
+  <footer id="footer" role="contentinfo">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <img src="assets/images/logo.png" alt="Logo Cafetería La Encantada" width="60" height="60" loading="lazy" />
+          <p>
+            Cafetería La Encantada — Tu lugar para relajarte, disfrutar
+            un buen café y crear recuerdos con las personas que más quieres.
+            Horario: 6pm a 10pm, todos los días.
+          </p>
+          <div class="footer-social" aria-label="Redes sociales">
+            <!-- Placeholder social icons -->
+            <a href="#" class="social-btn" aria-label="Facebook de La Encantada">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
+            </a>
+            <a href="#" class="social-btn" aria-label="Instagram de La Encantada">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+            </a>
+            <a href="#" class="social-btn" aria-label="TikTok de La Encantada">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M19.59 6.69a4.83 4.83 0 0 1-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 0 1-2.88 2.5 2.89 2.89 0 0 1-2.89-2.89 2.89 2.89 0 0 1 2.89-2.89c.28 0 .54.04.79.1V9.01a6.33 6.33 0 0 0-.79-.05 6.34 6.34 0 0 0-6.34 6.34 6.34 6.34 0 0 0 6.34 6.34 6.34 6.34 0 0 0 6.33-6.34V8.57a8.2 8.2 0 0 0 4.8 1.54V6.67a4.84 4.84 0 0 1-1.03.02z"/></svg>
+            </a>
+          </div>
+        </div>
+
+        <div class="footer-col">
+          <h4>Explorar</h4>
+          <ul>
+            <li><a href="#nosotros">Nosotros</a></li>
+            <li><a href="#servicios">Servicios</a></li>
+            <li><a href="#menu-preview">Menú</a></li>
+            <li><a href="#horario">Horario</a></li>
+            <li><a href="menu.html">Menú Completo</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Horario</h4>
+          <ul>
+            <li><a href="#horario">Lun–Dom: 6pm–10pm</a></li>
+            <li><a href="menu.html">Ver Menú</a></li>
+            <li><a href="#qr-section">Código QR del Menú</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>© 2024 Cafetería La Encantada. Todos los derechos reservados.</p>
+        <p><a href="menu.html">Menú digital</a></p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Back to top button -->
+  <button id="back-to-top" aria-label="Volver al inicio">
+    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="18 15 12 9 6 15"/></svg>
+  </button>
+
+  <!-- QR Code library -->
+  <script src="https://cdn.jsdelivr.net/npm/qrcodejs@1.0.0/qrcode.min.js"></script>
+  <!-- Main JS -->
+  <script src="js/main.js"></script>
+</body>
+</html>
